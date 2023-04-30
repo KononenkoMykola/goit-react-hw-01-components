@@ -12,7 +12,7 @@ import { TransactionHistory } from 'components/TransactionHistory/TransactionHis
 export const App = () => {
   return (
     <>
-      <Container title="Task 1. Profile social network">
+      <Container>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -22,16 +22,16 @@ export const App = () => {
         />
       </Container>
 
-      <Container title="Task 2. Statistics">
+      <Container>
         <Statistic title="Upload stats" stats={statistic} />
         <Statistic stats={statistic} />
       </Container>
 
-      <Container title="Task 3. FriendList">
+      <Container>
         <FriendList friends={friendsData} />
       </Container>
 
-      <Container title="Task 4. TransactionHistory">
+      <Container>
         <TransactionHistory items={transactions} />
       </Container>
     </>
