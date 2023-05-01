@@ -1,11 +1,10 @@
 .container {
-    --header-bg: #00bcd5;
+    --header-bg: rgb(130, 130, 242);
     --contrast-tr-bg: #ecf1f4;
     --td-b-cl: #dbe4ed;
     --table-border: #e4e4e4;
     border: 1px solid var(--table-border);
     border-collapse: collapse;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     margin: auto;
   }
   
